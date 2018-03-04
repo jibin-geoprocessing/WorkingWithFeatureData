@@ -1,6 +1,7 @@
 # skipped files
 *.gdb
 data/
+project/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
