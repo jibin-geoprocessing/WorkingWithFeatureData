@@ -19,6 +19,7 @@ pip install --upgrade pip
 pip install jupyter
 ```
 
+After installed, run `jupyter notebook` to start the web application.
 
 # About the data
 - The crash data and data dictionary can be retrieved from [Maryland Open Data Portal](https://data.maryland.gov/browse?q=Maryland+Statewide+Vehicle+Crashes&sortBy=relevance&utf8=&page=1). In this demo, we use `"Maryland Statewide Vehicle Crashes: CY2017 Quarter 4"` data.
