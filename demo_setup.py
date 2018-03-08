@@ -65,7 +65,7 @@ def demo_setup():
 
     clean_up_geodatabase(arcpy.env.workspace)
     input_table = os.path.join(data_folder, 'Crash_Qtr04_2017.xlsx', 'CRASH$')
-    arcpy.management.XYTableToPoint(input_table, 'crash', 'LONGITUDE', 'LATITUDE')
+    arcpy.management.XYTableToPoint(input_table, 'accidents', 'LONGITUDE', 'LATITUDE')
 
     shapefile = 'Maryland_Annual_Average_Daily_Traffic__Annual_Average_Daily_Traffic_SHA_Statewide_AADT_Lines.shp'
     split_road_data(os.path.join(data_folder, shapefile), arcpy.env.scratchGDB)
